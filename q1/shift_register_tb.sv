@@ -62,7 +62,6 @@ module shift_register_tb;
         load_enable = 0;
     endtask
 
-    // Test sequence
     initial begin
         clk = 0;
         rst_n = 1;
